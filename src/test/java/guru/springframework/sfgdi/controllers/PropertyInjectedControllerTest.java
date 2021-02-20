@@ -6,6 +6,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Property Injected Controller
+ * - least prefered way to inject a controller
+ * Note: Do not to this!
+ */
 class PropertyInjectedControllerTest {
 
     PropertyInjectedController controller;
