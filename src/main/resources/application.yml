@@ -3,3 +3,13 @@ guru:
     username: JMS Username
     password: somepass
     url: SomeURL
+
+# File separator "---"
+
+---
+# This is treated as a separate file. Like this you can have multiple profiles in one file.
+spring:
+  profiles: es
+guru:
+  jms:
+    username: JMS Username $$$$$$ Spanish

@@ -41,6 +41,7 @@ public class SfgDiApplication {
         FakeDataSource fakeDataSource = (FakeDataSource) ctx.getBean(FakeDataSource.class);
 
         System.out.println("Fake Username -> " + fakeDataSource.getUser());
+        System.out.println("Fake URL -> " + fakeDataSource.getUrl());
 
         FakeJmsBroker fakeJmsBroker = (FakeJmsBroker) ctx.getBean(FakeJmsBroker.class);
         System.out.println("Fake JMS Broker -> "+fakeJmsBroker.getUsername());
